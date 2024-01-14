@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 // import { Link } from "react-router-dom";
 import { app } from "./Firebase";
-import { collection, getFirestore, onSnapshot,doc } from "firebase/firestore";
+import { getFirestore, onSnapshot,doc } from "firebase/firestore";
 import { useParams } from 'react-router-dom';
 
 function PostDetail(){
