@@ -31,7 +31,7 @@ function PostDetail(){
         return () => {
             unsubscribe();
           };
-    },[]);
+    },[postId]);
 
     return(
         <div className="post-detail">
